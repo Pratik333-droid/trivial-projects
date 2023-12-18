@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Page</h1>
+    <!-- if we use action = "userRegistration/registerData" then it ensures that userRegistration/registerData gets appended after every action -->
+    <!--however if we use action = "/userRegistration/registerData" then it ensures that there is /userRegistration/registerData at the url's end -->
+    <p>Your password must be at least 8 characters long and it should include:</p>
+    <ul>
+        <li>An uppercase letter</li>
+        <li>A lowercase letter</li>
+        <li>A special character like `!@#$%^&*,.?/</li>
+        <li>At least 8 characters</li>
+    </ul>
+    <p style="color: red;">{{password_match}}</p>
+    <form action="/userRegistration/registerData" method="post">
+        {% csrf_token %}
+        Username:<br>
+        <input name="username">
+        <br><br>
+        Password:<br>
+        <input name="password" type="password">
+        <br><br>
+        Re-enter your password:<br>
+        <input name="confirm_password" type="password">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p> See our registered Users <a href="/userRegistration/displayRegisteredUsers">here</a></p>
+    <p> Go back to the <a href="/">Home page</a></p>
+</body>
+</html>

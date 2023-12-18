@@ -1,0 +1,1 @@
+This repo includes lab assignments of subjects like DSA, Numerical Methods, Object Oriented Programming (C++) etc. I also includes some static web sites and few code snippets that I had written while learning certain languages/frameworks.

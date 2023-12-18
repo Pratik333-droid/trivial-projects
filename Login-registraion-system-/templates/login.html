@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <form action="/userRegistration/login" method="post">
+        {% csrf_token %}
+        <p>Please enter your username and password</p>
+        Username:<br>
+        <input name="login_username">
+        <br><br>
+        Password:<br>
+        <input name="login_password" type="password">
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <p> See our registered Users <a href="/userRegistration/displayRegisteredUsers">here</a></p>
+    <p> Go back to the <a href="/">Home page</a></p>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file1.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Turn on all the switches to glow the tube-light</h1>
+    <p id="detail"> <b>The switches below act like AND gate</b> </p>
+    <div id="row1">
+        <div class="off" onclick=" switchColor(this)"><p>OFF</p></div>
+        <div class="off" onclick=" switchColor(this)"><p>OFF</p></div>
+        <div class="off" onclick=" switchColor(this)"><p>OFF</p></div>
+        <div class="off" onclick=" switchColor(this)"><p>OFF</p></div>
+    </div>
+
+    <div id = "big-tube" class="tubelight-off"></div>
+    <br><br>
+    <h1>Turn on the switch to toggle bulb</h1>
+    <div id="row2">
+        <div id ="two" class="off" onclick=" toggleColor(this)"><p>OFF</p></div>
+        <div id ="three" class="off" onclick=" toggleColor(this)"><p>OFF</p></div>
+        <div id ="four" class="off" onclick=" toggleColor(this)"><p>OFF</p></div>
+        <div id ="five" class="off" onclick=" toggleColor(this)"><p>OFF</p></div>
+        
+    </div>
+    <div id = "small-tubes" class="small-tubelights">
+        <div id = "twotube" class="small-tubelight-off"></div>
+        <div id = "threetube" class="small-tubelight-off"></div>
+        <div id = "fourtube" class="small-tubelight-off"></div>
+        <div id = "fivetube" class="small-tubelight-off"></div>
+    </div>
+    <script src="file1.js"></script>
+</body>
+</html>

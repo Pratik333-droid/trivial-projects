@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dahal University</title>
+    <!-- This is how you include a CSS file -->
+    <link rel="stylesheet" href="prat.css">
+    <!-- This is how you include a javascript file -->
+    <!-- <script src="prat.js"></script> -->
+    <!-- <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/e33dda5265.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="prat.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- <i class="fa fa-times"></i> -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+                <ul>
+                    <li> <a href="prat.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="courses.html">COURSE</a> </li>
+                    <li> <a href="blog.html">BLOG</a> </li>
+                    <li> <a href="contact.html">CONTACT</a> </li>
+                    <li> <a href="alumni.html">OUR ALUMNI</a> </li>
+                </ul>
+            </div>
+            <!-- <i class="fa fa-bars"></i> -->
+            <!-- <i class="fa fa-bars"></i> -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="fa fa-times" onclick="hideMenu()"></i>  -->
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-- -------------courses---------------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
+
+    </section>
+
+    <div class = "row">
+        <div class = "course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto vel maxime commodi magnam et possimus in, itaque quidem perspiciatis incidunt ipsam quae. Quasi aliquam quaerat odio, sapiente perferendis explicabo ratione!</p>
+            
+
+        </div>
+        <div class = "course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto vel maxime commodi magnam et possimus in, itaque quidem perspiciatis incidunt ipsam quae. Quasi aliquam quaerat odio, sapiente perferendis explicabo ratione!</p>
+
+
+        </div>
+        <div class = "course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto vel maxime commodi magnam et possimus in, itaque quidem perspiciatis incidunt ipsam quae. Quasi aliquam quaerat odio, sapiente perferendis explicabo ratione!</p>
+
+
+        </div>
+
+
+
+    </div>
+
+   <!-- -------------courses---------------->
+
+   <!-- ---------facilities------------>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png" alt="Our library">
+            <h3>World Class library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png" alt="Basketball court">
+            <h3>Decent Basketball Court</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png" alt="Our Cafeteria">
+            <h3>Top Class Cafeteria</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+        </div>
+    </div>
+</section>
+<!-- ---------facilities------------>
+<!-- -----------Footer-------------->
+    <section class="footer">
+        <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quisquam at alias exercitationem earum excepturi qui veritatis ullam quaerat<br>fugit eius consequatur laboriosam quam, laborum nobis enim molestiae. Aliquam, corporis.</p>
+
+
+    <div class="icons">
+        <a href="https://www.facebook.com/pratik.dahal.988"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Pratik Dahal</p>
+    </section>
+<!-- -----------Footer-------------->
+
+
+    <!-- -----------javaScript Toggle Menu----------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right = "0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+<!-- -----------javaScript Toggle Menu----------- -->
+
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dahal University</title>
+    <!-- This is how you include a CSS file -->
+    <link rel="stylesheet" href="prat.css">
+    <!-- This is how you include a javascript file -->
+    <!-- <script src="prat.js"></script> -->
+    <!-- <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/e33dda5265.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="prat.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- <i class="fa fa-times"></i> -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+                <ul>
+                    <li> <a href="prat.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="courses.html">COURSE</a> </li>
+                    <li> <a href="blog.html">BLOG</a> </li>
+                    <li> <a href="contact.html">CONTACT</a> </li>
+                    <li> <a href="alumni.html">OUR ALUMNI</a> </li>
+                </ul>
+            </div>
+            <!-- <i class="fa fa-bars"></i> -->
+            <!-- <i class="fa fa-bars"></i> -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="fa fa-times" onclick="hideMenu()"></i>  -->
+        </nav>
+        <h1>Our Certificate & Online programs For 2021</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg" alt="certificate">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quaerat quisquam, velit maxime dolorem ratione doloremque hic, quam laborum consequuntur explicabo aspernatur, exercitationem in commodi non accusamus dolores ipsa autem.
+                    <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto praesentium inventore, facere recusandae nisi quia perspiciatis ullam itaque doloribus eius, odio reprehenderit, totam quo repellat quis libero commodi excepturi. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vero velit blanditiis expedita ipsum reiciendis delectus ducimus facere earum tempore assumenda in, hic molestias quaerat quae porro tenetur voluptate deserunt. 
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo expedita nihil adipisci repellat iusto voluptas excepturi ipsum quibusdam saepe quis, architecto molestiae blanditiis quod error laborum odio laboriosam porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aspernatur accusantium error. Quibusdam velit dolor iste cum? Sint itaque dicta qui atque, voluptate ducimus deserunt repellendus amet temporibus, tenetur dignissimos?
+                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium labore odio beatae libero, repudiandae iure aut deserunt hic. Nihil eligendi obcaecati alias nisi possimus ex neque quo libero, reiciendis numquam?
+                    <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae provident reprehenderit quasi animi odio voluptatem repudiandae soluta modi blanditiis voluptates sit iste, deserunt beatae repellendus veritatis qui officiis itaque vero.
+                </p>
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>13</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Data Analytics</span>
+                    <span>13</span>
+                </div>
+                <div>
+                    <span>Cloud Computing</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Neural Network</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Cyber Security</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Blockchain</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </section>
+    <!-- -----------Footer-------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quisquam at alias exercitationem earum excepturi qui veritatis ullam quaerat<br>fugit eius consequatur laboriosam quam, laborum nobis enim molestiae. Aliquam, corporis.</p>
+
+
+<div class="icons">
+    <a href="https://www.facebook.com/pratik.dahal.988"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+</div>
+<p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Pratik Dahal</p>
+</section>
+<!-- -----------Footer-------------->
+
+
+    <!-- -----------javaScript Toggle Menu----------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+        {
+            navLinks.style.right = "0";
+        }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+<!-- -----------javaScript Toggle Menu----------- -->
+
+</body>
+
+</html>

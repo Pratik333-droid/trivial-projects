@@ -1,0 +1,100 @@
+.on
+{
+    display: inline-block;
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background: linear-gradient(black, white);
+    margin: 20px;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tubelight-off 
+{
+    width: 530px;
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.small-tubelight-off 
+{
+    width: 100px;
+    margin: 20px;
+    /* width: 100px; */
+    height: 10px;
+    /* margin: 20px; */
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    transition: 0.7s;
+}
+.small-tubelight-on
+{
+    width: 100px;
+    margin: 20px;
+    /* width: 100px; */
+    height: 10px;
+    /* margin: 20px; */
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    background: linear-gradient(#f0f0f0, white);
+    box-shadow: 0 0 20px white;
+    transition: 0.5s;
+}
+
+.tubelight-on
+{
+    width: 530px;
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background: linear-gradient(#f0f0f0, white);
+    box-shadow: 0 0 20px white;
+  
+}
+.off
+{
+    display: inline-block;
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background: linear-gradient(white, black);
+    box-shadow: 0 0 10px white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+#row1 .off p, #row1 .on p, #row2 .off p, #row2 .on p
+{
+    /* margin: auto; */
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    font-size: 30px;
+    
+}
+body p#detail
+{
+    color: white;
+    margin-left : 20px;
+    font-weight: 600;
+}
+h1
+{
+    margin-left: 20px;
+    color: white;
+}
+body
+{
+    background: #111;
+}
